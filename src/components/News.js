@@ -29,7 +29,7 @@ articles =  [
         super();
         console.log("Constr from News Component ");
            this.state={
-arctiles: this.articles
+            articles: this.articles
 
            }
     
@@ -39,29 +39,18 @@ arctiles: this.articles
     return (
       <div className="container my-3">
         <h2>Top Headline</h2>
-        <div className="row">
-          <div className="col-md-4">
-            <NewsItem title="myTitle" description="myDEsc" imageUrl="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg" />
-          </div>
-          <div className="col-md-4">
-            <NewsItem title="myTitle" description="myDEsc" imageUrl ="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg" />
-          </div>
-          <div className="col-md-4">
-            <NewsItem title="myTitle" description="myDEsc" />
-          </div>
+        <div className="row" >
+            {  this.state.articles.map((element)=>
+            {
+                return <div className="col-md-4" key ={element.url}>
+                <NewsItem title={element.title.slice(0,30)} description={element.description.slice(0,88)} imageUrl={element.urlToImage} newsUrl={element.url} />
+              
+              </div> 
+            })}
+          
           </div>
 
-          <div className="row">
-            <div className="col-md-4">
-              <NewsItem title="myTitle" description="myDEsc" />
-            </div>
-            <div className="col-md-4">
-              <NewsItem title="myTitle" description="myDEsc" />
-            </div>
-            <div className="col-md-4">
-              <NewsItem title="myTitle" description="myDEsc" />
-            </div>
-          </div>
+         
 
          
         </div>
