@@ -1,6 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React, { Component } from 'react'
+import NavBar from './components/NavBar';
+import News from './components/News';
+
 
 
    
@@ -11,7 +14,9 @@ import React, { Component } from 'react'
        
         return (
           <div>
-       TEST --{this.c}
+      <NavBar/>
+      <News/>
+    
           </div>
         )
       }
