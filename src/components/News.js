@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NewsItem from "./NewsItem";
-
+import MyLoader from "./MyLoader";
 export class News extends Component {
 articles =  []
     constructor(){
@@ -10,29 +10,34 @@ articles =  []
            this.state={
             articles:[],
             page :1,
-        
+        loading:false
         }
     
     }
 async componentDidMount(){
 
 
-    let url ="https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=1&pageSize=21";
+    let url =`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=1&pageSize=${this.props.pageSize}`;
+    this.setState({loading:true})
     let data =await fetch(url);
     let parseddata =await data.json();
     console.log(parseddata);
     this.setState({articles:parseddata.articles,
-        totalResults:parseddata.totalResults
+        totalResults:parseddata.totalResults,
+        loading:false
     });
 }
 handlePreviousButton=async()=>{
 
-    let url =`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=${this.state.page -1}&pageSize=21`;
+    let url =`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=${this.state.page -1}&pageSize=${this.props.pageSize}`;
+    this.setState({loading:true})
+
     let data =await fetch(url);
     let parseddata =await data.json();
 this.setState({
 page:this.state.page-1,
-articles:parseddata.articles
+articles:parseddata.articles,
+loading:false
 })
 
 
@@ -40,28 +45,32 @@ articles:parseddata.articles
 }
 handleNextButton=async()=>{
     
-    if(this.state.page+1>Math.ceil(this.state.totalResults/21)){
+    if(!(this.state.page+1>Math.ceil(this.state.totalResults/this.props.pageSize))){
 
-
+        let url =`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=${this.state.page +1}&pageSize=${this.props.pageSize}`;
+        this.setState({loading:true})
+        let data =await fetch(url);
+        let parseddata =await data.json();
+    this.setState({
+    page:this.state.page+1,
+    articles:parseddata.articles,
+    loading:false
+    })
+   
     }
+    
     else{
-    let url =`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=${this.state.page +1}&pageSize=21`;
-    let data =await fetch(url);
-    let parseddata =await data.json();
-this.setState({
-page:this.state.page+1,
-articles:parseddata.articles
-})
-
+  
 }
 }
-
   render() {
     return (
       <div className="container my-3">
-        <h2>Top Headline</h2>
+        <h1 className="text ceter">Top Headline</h1>
+{this.state.loading && <MyLoader/>}
         <div className="row" >
-            {  this.state.articles.map((element)=>
+
+            { !(this.state.loading) && this.state.articles.map((element)=>
             {
                 return <div className="col-md-4" key ={element.url}>
                 <NewsItem title={element.title?element.title.slice(0,30):""} description={element.description?element.description.slice(0,88):""} imageUrl={element.urlToImage} newsUrl={element.url} />
@@ -71,7 +80,7 @@ articles:parseddata.articles
             </div>
           <div className="container d-flex justify-content-between">
           <button disabled={this.state.page<=1} type="button" className="btn btn-success" onClick={this.handlePreviousButton}>&laquo; previous</button>
-          <button type="button" className="btn btn-success" onClick={this.handleNextButton}>next &raquo;</button>
+          <button disabled={this.state.page+1>Math.ceil(this.state.totalResults/this.props.pageSize)} type="button" className="btn btn-success" onClick={this.handleNextButton}>next &raquo;</button>
           </div>
 
          
