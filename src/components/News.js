@@ -34,54 +34,41 @@ export class News extends Component {
         }
     
     }
-async componentDidMount(){
 
+    async updateNews(){
 
-    let url =`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=1&pageSize=${this.props.pageSize}`;
-    this.setState({loading:true})
-    let data =await fetch(url);
-    let parseddata =await data.json();
-    console.log(parseddata);
-    this.setState({articles:parseddata.articles,
-        totalResults:parseddata.totalResults,
-        loading:false
-    });
-}
-handlePreviousButton=async()=>{
-
-    let url =`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=business&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=${this.state.page -1}&pageSize=${this.props.pageSize}`;
-    this.setState({loading:true})
-
-    let data =await fetch(url);
-    let parseddata =await data.json();
-this.setState({
-page:this.state.page-1,
-articles:parseddata.articles,
-loading:false
-})
-
-
-
-}
-handleNextButton=async()=>{
-    
-    if(!(this.state.page+1>Math.ceil(this.state.totalResults/this.props.pageSize))){
-
-        let url =`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=business&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=${this.state.page +1}&pageSize=${this.props.pageSize}`;
+        const url =`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=${this.state.page}&pageSize=${this.props.pageSize}`;
         this.setState({loading:true})
         let data =await fetch(url);
         let parseddata =await data.json();
-    this.setState({
-    page:this.state.page+1,
-    articles:parseddata.articles,
-    loading:false
-    })
-   
+        console.log(parseddata);
+        this.setState({articles:parseddata.articles,
+            totalResults:parseddata.totalResults,
+            loading:false
+        });
+
     }
-    
-    else{
-  
+async componentDidMount(){
+
+
+   this.updateNews();
 }
+handlePreviousButton=async()=>{
+
+this.setState({
+     page:this.state.page-1,
+
+});
+this.updateNews();
+}
+handleNextButton=async()=>{
+    
+this.setState({
+    page:this.state.page+1,
+
+});
+this.updateNews();
+
 }
   render() {
     return (
