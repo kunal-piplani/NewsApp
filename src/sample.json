@@ -1,0 +1,266 @@
+// {
+//     "status": "ok",
+//     "totalResults": 457,
+//     "articles": [
+//     {
+//     "source": {
+//     "id": "reuters",
+//     "name": "Reuters"
+//     },
+//     "author": "Stephen Nellis",
+//     "title": "Analysis-Apple's App Store concessions fail to address top concerns of regulators, lawmakers - Reuters.com",
+//     "description": "In the space of a week, Apple Inc made two sets of changes to its App Store rules, which are the subject of lawsuits, regulatory probes and legislation around the world, but the tweaks do not address the biggest concerns raised.",
+//     "url": "https://www.reuters.com/article/apple-antitrust-idUSKBN2FZ02A",
+//     "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210903&t=2&i=1573730037&r=LYNXMPEH82013&w=800",
+//     "publishedAt": "2021-09-03T01:05:00Z",
+//     "content": "(Reuters) - In the space of a week, Apple Inc made two sets of changes to its App Store rules, which are the subject of lawsuits, regulatory probes and legislation around the world, but the tweaks do… [+3514 chars]"
+//     },
+//     {
+//     "source": {
+//     "id": "reuters",
+//     "name": "Reuters"
+//     },
+//     "author": "Stephen Nellis",
+//     "title": "Analysis: Apple's App Store concessions fail to address top concerns of regulators, lawmakers - Reuters",
+//     "description": "In the space of a week, Apple Inc <a href=\"https://www.reuters.com/companies/AAPL.O\" target=\"_blank\">(AAPL.O)</a> made two sets of changes to its App Store rules, which are the subject of lawsuits, regulatory probes and legislation around the world, but the t…",
+//     "url": "https://www.reuters.com/technology/apples-app-store-concessions-fail-address-top-concerns-regulators-lawmakers-2021-09-03/",
+//     "urlToImage": "https://www.reuters.com/resizer/o8oTafPd6mnHctS8KCARQKfr7Ko=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/CJLSP4ALHZOYZHAY2C46BDSTYE.jpg",
+//     "publishedAt": "2021-09-03T01:09:00Z",
+//     "content": "A salesperson speaks to a customer at an Apple reseller store in Mumbai, India September 1, 2021. Picture taken September 1, 2021. REUTERS/Francis MascarenhasSept 3 (Reuters) - In the space of a week… [+3929 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": "reuters",
+//     "name": "Reuters"
+//     },
+//     "author": "Norihiko Shirouzu",
+//     "title": "RPT-SPECIAL REPORT-How the Chinese tycoon driving Volvo plans to tackle Tesla - Reuters",
+//     "description": "RPT-SPECIAL REPORT-How the Chinese tycoon driving Volvo plans to tackle Tesla  Reuters",
+//     "url": "https://www.reuters.com/article/autos-geely-lishufu-idUSL4N2Q5147",
+//     "urlToImage": "https://s1.reutersmedia.net/resources_v2/images/rcom-default.png?w=800",
+//     "publishedAt": "2021-09-03T04:40:00Z",
+//     "content": "(Repeating story published on September 2.)\r\nHANGZHOU, China, Sept 2 (Reuters) - Do you know how big Volvo is? asked Don Leclair, finance chief at Ford Motor Co..\r\nIt was 2008, and Leclair was respon… [+17941 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "Hipertextual"
+//     },
+//     "author": "Javier Marquez",
+//     "title": "Este cable USB-C a Lightning parece original, pero puede robar tus datos",
+//     "description": "Parece un cable USB-C a Lightning normal. Se puede utilizar para cargar y sincronizar los AirPods, el iPad o el iPhone. También permite conectar un teclado a un ordenador. Sin embargo, no se trata de un accesorio original. Es un producto infectado que registr…",
+//     "url": "https://hipertextual.com/2021/09/cable-usb-c-a-lightning-robar-datos",
+//     "urlToImage": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/09/cable-malicioso-Lightning-11-scaled.jpg?fit=2560%2C1726&ssl=1",
+//     "publishedAt": "2021-09-03T01:01:00Z",
+//     "content": "Parece un cable USB-C a Lightning normal. Se puede utilizar para cargar y sincronizar los AirPods, el iPad o el iPhone. También permite conectar un teclado a un ordenador. Sin embargo, no se trata de… [+2040 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "Freakonomics.com"
+//     },
+//     "author": "Dr. Bapu Jena",
+//     "title": "How to Solve a Medical Mystery (Freakonomics, M.D. Ep. 5)",
+//     "description": "A woman comes to the emergency room with back pain. She’ll leave with an unexpected diagnosis. How does her doctor figure out what’s wrong? Listen as host Bapu Jena puts master clinician Dr. Gurpreet Dhaliwal on the spot to solve a real medical mystery. Along…",
+//     "url": "https://freakonomics.com/podcast/fmd-how-docs-think/",
+//     "urlToImage": "https://freakonomics.com/wp-content/uploads/2021/08/Twitter-1500x500-FreakonomicsMD.jpg",
+//     "publishedAt": "2021-09-03T03:00:29Z",
+//     "content": "A woman comes to the emergency room with back pain. Shell leave with an unexpected diagnosis. How does her doctor figure out whats wrong? Listen as host Bapu Jena puts master clinician Dr. Gurpreet D… [+239 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "@tucson_police"
+//     },
+//     "author": "John Gruber",
+//     "title": "Apple’s Burned Trust",
+//     "description": null,
+//     "url": "https://twitter.com/siracusa/status/1433250588909780995",
+//     "urlToImage": null,
+//     "publishedAt": "2021-09-03T00:21:54Z",
+//     "content": "John Siracusa, on Twitter:\n\n\n Sure, your “reader” app can include one (1) approved link to your\nwebsite … but will you be allowed to have any text near that link\nexplaining why someone might want to … [+1392 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "Fsf.org"
+//     },
+//     "author": "",
+//     "title": "A wake-up call for iPhone users – it's time to go",
+//     "description": "Comments",
+//     "url": "https://www.fsf.org/news/a-wake-up-call-for-iphone-users-its-time-to-go",
+//     "urlToImage": null,
+//     "publishedAt": "2021-09-03T02:43:16Z",
+//     "content": "In the last few weeks, Apple announced that it will begin\r\nactively monitoring the photos and videos stored on the iPhones of\r\nits users in the United States. Apple is describing its\r\nsurveillance sy… [+6153 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "Gigazine.net"
+//     },
+//     "author": "@GIGAZINE",
+//     "title": "iOS 15ではApple純正アプリでもトラッキングの可否を確認されるように、独禁法訴訟への対応か",
+//     "description": "Appleは2021年4月にリリースした「iOS 14.5」でApp Tracking Transparency(ATT)を導入し、サードパーティー製アプリがユーザーを追跡する際はユーザに許可を求めることが必須になりました。2021年秋にリリース予定の「iOS 15」では、App Storeや公式ニュースアプリ「News」でもユーザーがトラッキングの可否を選択できるようになります。続きを読む...",
+//     "url": "https://gigazine.net/news/20210903-apple-personalized-ads/",
+//     "urlToImage": "https://i.gzn.jp/img/2021/09/03/apple-personalized-ads/00.png",
+//     "publishedAt": "2021-09-03T06:00:00Z",
+//     "content": "iPhoneOSiOS 15 - GIGAZINE\r\nAppleWWDCiOS 15 - GIGAZINE\r\nAppleApp Store - GIGAZINE\r\niOS 14.5ATT1 - GIGAZINE\r\niPhoneiOS 14.5ATT - GIGAZINE\r\nApple1520 - GIGAZINE\r\nTweet"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "heise online"
+//     },
+//     "author": "Frank Schräer",
+//     "title": "Freitag: Virgin-Verbot, Fakt-Check, Heim-Arbeit, Steuer-Betrug & iPhone-Gerüchte",
+//     "description": "Virgins Raumflüge untersagt + Facebook mit Faktencheck zur Wahl + Mitarbeiter-Tricks im Homeoffice + Steuerbetrugsportal in der Kritik + Gerüchte zu iPhone 13",
+//     "url": "https://www.heise.de/news/Freitag-Virgin-Verbot-Fakt-Check-Heim-Arbeit-Steuer-Betrug-iPhone-Geruechte-6180949.html",
+//     "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/1/6/2/3/1/7/freitag-859b52b5b3af7af3.jpeg",
+//     "publishedAt": "2021-09-03T04:30:00Z",
+//     "content": "Milliardär Richard Branson hat im Juli mit seinem Flug in die Schwerelosigkeit für Aufsehen gesorgt und war damit seinem Konkurrenten beim Weltraumtourismus Jeff Bezos knapp zuvor gekommen. Aber offe… [+4254 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "9to5Mac"
+//     },
+//     "author": "Filipe Espósito",
+//     "title": "Apple Pay promo offers up to $30 off at Instacart",
+//     "description": "Every week, Apple reveals a new exclusive offer for Apple Pay users in the US, and this week’s offer is for customers of the popular grocery delivery service Instacart. The company is offering up to $30 off orders placed at Instacart for those who pay with Ap…",
+//     "url": "http://9to5mac.com/2021/09/02/apple-pay-promo-offers-up-to-30-off-at-instacart/",
+//     "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2021/09/Apple-Pay-Instacart-promo.jpg?resize=1200%2C628&ssl=1",
+//     "publishedAt": "2021-09-03T01:36:00Z",
+//     "content": "Every week, Apple reveals a new exclusive offer for Apple Pay users in the US, and this weeks offer is for customers of the popular grocery delivery service Instacart. The company is offering up to $… [+1539 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "AppleInsider"
+//     },
+//     "author": "news@appleinsider.com (AppleInsider Staff)",
+//     "title": "Rumor: Current Apple Watch bands incompatible with larger 'Apple Watch Series 7'",
+//     "description": "A rumor Thursday claims Apple's next-generation Apple Watch is incompatible with current bands, a potential problem for upgraders who invested in multiple Watch straps.In August, leaker \"Uncle Pan\" suggested \"Apple Watch Series 7\" will come in 41mm and 45mm c…",
+//     "url": "https://appleinsider.com/articles/21/09/03/rumor-current-apple-watch-bands-incompatible-with-larger-apple-watch-series-7",
+//     "urlToImage": "https://photos5.appleinsider.com/gallery/44201-85882-210902-AppleWatch41mm-xl.jpg",
+//     "publishedAt": "2021-09-03T02:55:46Z",
+//     "content": "A rumor Thursday claims Apple's next-generation Apple Watch is incompatible with current bands, a potential problem for upgraders who invested in multiple Watch straps. \r\nIn August, leaker \"Uncle Pan… [+1360 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "AppleInsider"
+//     },
+//     "author": "news@appleinsider.com (AppleInsider Staff)",
+//     "title": "Apple investigating RISC-V chip architecture, job listing shows",
+//     "description": "A job listing posted to Apple's website this week reveals the company is researching RISC-V instruction set architecture solutions, suggesting future in-house system-on-chip designs might implement the open-source technology.The posting for a \"RISC-V High Per…",
+//     "url": "https://appleinsider.com/articles/21/09/03/apple-investigating-risc-v-processor-architecture-job-listing-shows",
+//     "urlToImage": "https://photos5.appleinsider.com/gallery/44202-85883-210902-A14-xl.jpg",
+//     "publishedAt": "2021-09-03T03:30:23Z",
+//     "content": "A job listing posted to Apple's website this week reveals the company is researching RISC-V instruction set architecture solutions, suggesting future in-house system-on-chip designs might implement t… [+1509 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "AppleInsider"
+//     },
+//     "author": "news@appleinsider.com (Mikey Campbell)",
+//     "title": "US National Labor Relations Board investigating two Apple employee complaints",
+//     "description": "The U.S. National Labor Relations Board is examining two complaints filed by Apple employees, according to a report on Thursday.Two cases were filed with the NLRB's Oakland office on Aug. 26 and Sept. 1, Reuters reports. While the report fails to offer additi…",
+//     "url": "https://appleinsider.com/articles/21/09/03/us-national-labor-relations-board-investigating-two-apple-employee-complaints",
+//     "urlToImage": "https://photos5.appleinsider.com/gallery/44199-85880-210902-ApplePark-xl.jpg",
+//     "publishedAt": "2021-09-03T00:01:16Z",
+//     "content": "The U.S. National Labor Relations Board is examining two complaints filed by Apple employees, according to a report on Thursday. \r\nTwo cases were filed with the NLRB's Oakland office on Aug. 26 and S… [+456 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "AppleInsider"
+//     },
+//     "author": "news@appleinsider.com (AppleInsider Staff)",
+//     "title": "App maker seeks $200B from Apple in App Store class action lawsuit",
+//     "description": "A proposed class action lawsuit targeting Apple's App Store and filed by an \"edutainment\" app maker was assigned a judge in California on Thursday, potentially setting the stage for another app marketplace showdown.Primary Productions, a Maine company that so…",
+//     "url": "https://appleinsider.com/articles/21/09/03/app-maker-seeks-200b-from-apple-in-app-store-class-action-lawsuit",
+//     "urlToImage": "https://photos5.appleinsider.com/gallery/44200-85881-210902-AppStore-xl.jpg",
+//     "publishedAt": "2021-09-03T02:07:33Z",
+//     "content": "A proposed class action lawsuit targeting Apple's App Store and filed by an \"edutainment\" app maker was assigned a judge in California on Thursday, potentially setting the stage for another app marke… [+1921 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": "engadget",
+//     "name": "Engadget"
+//     },
+//     "author": "Andy Yang",
+//     "title": "YouTube Premium 和 Music 现在合计已有 5,000 万订户",
+//     "description": "自从 YouTube 上次炫耀订阅用户数来到 2,000 万之后仅一年半的时间，YouTube Premium 和 Music 的合计订阅户数就来到了 5,000 万的里程碑。据 YouTube 的音乐部门老大 Lyor Cohen 所称，这是「成长最快」的音乐订阅服务，其中更以巴西、印度、日本、俄罗斯与南韩市场成长最为「令人印象深刻」」。",
+//     "url": "https://cn.engadget.com/youtube-premium-music-50-million-subscribers-050009550.html",
+//     "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-09/4c4e41b0-0c65-11ec-b1bb-1010c850c88f",
+//     "publishedAt": "2021-09-03T05:00:09Z",
+//     "content": "YouTube 2,000 YouTube Premium Music 5,000 YouTube Lyor Cohen \r\nSpotify 6 1.65 Premium Music 2019 6 6,000 1 5,500 \r\n YouTube YouTube YouTube Premium Music Premium YouTube Premium YouTube Music Music Y… [+78 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": "engadget",
+//     "name": "Engadget"
+//     },
+//     "author": "Kiyoshi Tane",
+//     "title": "Apple Watch Series 7(仮)、ピクセル数が16%増えて専用文字盤も追加の噂",
+//     "description": "次期Apple Watch Series 7(仮)につき、「画面のピクセル数が先代より16%増える」など具体的な観測が伝えられています。",
+//     "url": "https://japanese.engadget.com/apple-watch-series7-more-pixel-030037938.html",
+//     "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-09/39c29cb0-0c5d-11ec-bf2b-d6c96ea97703",
+//     "publishedAt": "2021-09-03T03:00:37Z",
+//     "content": "Apple Watch Series 7()\r\nBloombergMark GurmanGurmanApple Watch41mm45mm21mm\r\n41mm45mmSeries 644mm368×44845mm396×484Apple Watch Series 716%\r\nModular Max\r\n11\r\nContinuum\r\n246WWD\r\nHermesNikeHermesNikie\r\n20… [+86 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": "engadget",
+//     "name": "Engadget"
+//     },
+//     "author": "Kiyoshi Tane",
+//     "title": "アップル、動画や音楽アプリ内に外部サイトへのリンクを許可。30%手数料の回避が可能に",
+//     "description": "アップルは1日、日本の公正取引委員会と「リーダー」アプリの運営方法を変更することを条件に、App Storeの調査を終結することに合意したと発表しました。",
+//     "url": "https://japanese.engadget.com/apple-allow-link-outside-appstore-020027690.html",
+//     "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-09/d78dc240-0be9-11ec-bfea-fe259730cf59",
+//     "publishedAt": "2021-09-03T02:00:27Z",
+//     "content": "This is what you get when trying to sign up for Netflix on the iPhone today. In early 2022, itll be a button that points you to Netflixs website to sign up and pay there. This is a major, structural … [+118 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "Applesfera.com"
+//     },
+//     "author": "Jesús Quesada",
+//     "title": "iPhone 12 Pro Max por 100 euros menos, ofertas en Mac y iPad para la vuelta al cole y más: Cazando Gangas",
+//     "description": "Agosto terminó y con él las vacaciones de mucha gente. La vuelta a los puestos de trabajo y estudios están a la vuelta de la esquina y en el Cazando Gangas de Applesfera recopilamos las mejores ofertas de dispositivos de Apple por si necesitáis un nuevo Mac, …",
+//     "url": "https://www.applesfera.com/general/iphone-12-pro-max-100-euros-ofertas-mac-ipad-para-vuelta-al-cole-cazando-gangas",
+//     "urlToImage": "https://i.blogs.es/e19937/cazando-gangas/840_560.jpeg",
+//     "publishedAt": "2021-09-03T06:00:28Z",
+//     "content": "Agosto terminó y con él las vacaciones de mucha gente. La vuelta a los puestos de trabajo y estudios están a la vuelta de la esquina y en el Cazando Gangas de Applesfera recopilamos las mejores ofert… [+6716 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "Applesfera.com"
+//     },
+//     "author": "David Bernal Raspall",
+//     "title": "Últimos rumores del Apple Watch Series 7: pantalla un 16% más grande, esferas exclusivas y dudas sobre la compatibilidad con correas",
+//     "description": "Todo parece indicar que los nuevos Apple Watch Series 7 contarán con una mayor pantalla, es algo que llevamos oyendo ya varios meses. Ahora Mark Gurman ha dado detalles exactos sobre los nuevos tamaños, un 16% más grandes que la generación anterior, y sobre l…",
+//     "url": "https://www.applesfera.com/rumores/ultimos-rumores-apple-watch-series-7-pantalla-16-grande-esferas-exclusivas-dudas-compatibilidad-correas",
+//     "urlToImage": "https://i.blogs.es/23fd56/apple-watch-series-7-scaled/840_560.jpeg",
+//     "publishedAt": "2021-09-03T06:14:29Z",
+//     "content": "Todo parece indicar que los nuevos Apple Watch Series 7 contarán con una mayor pantalla, es algo que llevamos oyendo ya varios meses. Ahora Mark Gurman ha dado detalles exactos sobre los nuevos tamañ… [+3203 chars]"
+//     },
+//     -{
+//     -"source": {
+//     "id": null,
+//     "name": "HYPEBEAST"
+//     },
+//     "author": "info@hypebeast.com (HYPEBEAST), HYPEBEAST",
+//     "title": "Krispy Kreme Unveils Fall-Inspired Pumpkin Spice, Apple Cider and Maple Glazed Doughnuts",
+//     "description": "Krispy Kreme is preparing for the upcoming season with new fall-inspired glazes in addition to its seasonal Pumpkin Spice offering.Beginning September 13 to September 19, fans can drop by participating shops in the United States and pick up the new Apple Cide…",
+//     "url": "https://hypebeast.com/2021/9/krispy-kreme-fall-inspired-glaze-pumpkin-spice-apple-cider-maple-release",
+//     "urlToImage": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F09%2Fkrispy-kreme-fall-inspired-glaze-pumpkin-spice-apple-cider-maple-release-tw.jpg?w=960&cbr=1&q=90&fit=max",
+//     "publishedAt": "2021-09-03T02:53:38Z",
+//     "content": "Krispy Kreme is preparing for the upcoming season with new fall-inspired glazes in addition to its seasonal Pumpkin Spice offering.\r\nBeginning September 13 to September 19, fans can drop by participa… [+1245 chars]"
+//     }
+//     ]
+//     }

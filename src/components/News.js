@@ -21,19 +21,22 @@ export class News extends Component {
 
     articles =  []
 
+    capitalizeFirstLetter = (string)=> {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+    }
 
+    constructor(props){
 
-    constructor(){
-
-        super();
-        console.log("Constr from News Component ");
+        super(props);
            this.state={
             articles:[],
             page :1,
         loading:false
         }
-    
+    document.title =`${this.capitalizeFirstLetter(this.props.category)}-NewsAPP`;
     }
+
+   
 
     async updateNews(){
 
@@ -73,7 +76,7 @@ this.updateNews();
   render() {
     return (
       <div className="container my-3">
-        <h1 className="text ceter">Top Headline</h1>
+        <h3 className="text-center" style={{margin:'35px 0px'}}>Top {this.capitalizeFirstLetter(this.props.category)} Headline</h3>
 {this.state.loading && <MyLoader/>}
         <div className="row" >
 
