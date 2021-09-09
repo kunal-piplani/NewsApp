@@ -31,10 +31,12 @@ const News = (props) => {
     setLoading(false);
 
     props.setProgress(100);
-  };
+  }
+  
   useEffect(() => {
+    document.title =`${this.capitalizeFirstLetter(props.category)}-NewsAPP`;
  updateNews();
-  }, []);
+  }, [])
 
   const handlePreviousButton = async () => {
     setPage(page-1)
@@ -49,8 +51,9 @@ const News = (props) => {
   };
 
   const  fetchMoreData = async () => {
+   
+    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=${page+1}&pageSize=${props.pageSize}`;
     setPage(page+1)
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=2bfde93e3f87449991a5d025e5c4b65e&page=${page}&pageSize=${props.pageSize}`;
     let data = await fetch(url);
     let parseddata = await data.json();
     console.log(parseddata);
